@@ -14,7 +14,7 @@ def post_submit ():
             db.session.commit()
             return redirect('/')
     except :
-        return "If are entering data which is already in the database then you will encounter an error. Name must be unique."
+        return "If you are entering data which is already in the database then you will encounter an error. Name must be unique."
     
     
     if request.method == 'GET':
