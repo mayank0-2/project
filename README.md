@@ -1,4 +1,4 @@
-Internship project for GoMind Wellness
+
 
 Problem statement: Create a flask app(python) which takes in a form data with fields (name, college etc) and saves to DB. The app should be able to show the data submitted. Note: you don't have to implement edit, delete functionality
 Also we are not judging you based on FE, so you can keep it minimal html as well 
